@@ -2,8 +2,8 @@
 
 <h2><strong>Descrição</strong></h2>
 <p align="justify">
-  Este projeto consiste na criação completa de um <strong>eBook temático sobre Pixel Art e desenvolvimento de jogos retrô</strong>, com estética mágica inspirada em Hogwarts e no universo do podcast Debugwarts.  
-  O eBook foi desenvolvido utilizando ferramentas de <strong>IA generativa</strong> para criação de conteúdo, identidade visual e elementos gráficos, além de ferramentas de design para montagem final.  
+  Este projeto consiste na criação completa de um eBook temático sobre Pixel Art e desenvolvimento de jogos retrô, com estética mágica inspirada em Hogwarts e no universo do podcast Debugwarts.  
+  O eBook foi desenvolvido utilizando ferramentas de IA generativa para criação de conteúdo, identidade visual e elementos gráficos, além de ferramentas de design para montagem final.  
   O objetivo foi aplicar na prática os fundamentos de IA generativa aprendidos no curso, produzindo um material coeso, criativo e visualmente profissional do zero.
 </p>
 
@@ -15,9 +15,9 @@
 </ul>
 
 <h2><strong>Demonstração do Projeto</strong></h2>
-<img src="./assets/ebook-cover.png" alt="The Pixel Codex - Capa do Ebook" width="200px"/>
+<img src="./assets/cover-ebook.png" alt="The Pixel Codex - Capa do Ebook" width="200px"/>
 <br/>
-<a href="https://williandpg.github.io/debugwarts-ebook" target="_blank"><strong>📖 Acesse e baixe o eBook aqui</strong></a>
+<a href="https://williandpg.github.io/debugwarts-ebook" target="_blank"><strong>Acesse e baixe o eBook aqui</strong></a>
 
 <h2><strong>Estrutura do Projeto</strong></h2>
 <p align="justify">A estrutura do projeto está organizada da seguinte forma:</p>
@@ -25,16 +25,20 @@
 ```plaintext
 /
 ├── assets/
-│   ├── ebook-cover.png
-│   └── parchment-background.png
+│   ├── cover-ebook.png
+│   └── page.png
 ├── src/
 │   └── prompts/
-│       ├── chatgpt-text.md
+│       ├── chatgpt-script.md
+│       ├── midjourney-page.md
 │       └── midjourney-cover.md
 ├── output/
 │   └── the-pixel-codex.pdf
+│── index.html
+│── style.css
 └── README.md
 ```
+
 <h2><strong>Notas</strong></h2> 
 <ul> 
   <li align="justify">Utilizei o ChatGPT para criar todo o roteiro e estrutura textual do eBook.</li> 
@@ -52,7 +56,7 @@
 </p> 
 
 <h2><strong>Créditos</strong></h2> 
-<p align="justify"> Este projeto foi desenvolvido como parte do curso de <strong>Fundamentos de IA Generativa</strong> oferecido pela <strong>DIO</strong>, aplicando conceitos de IA, design visual e publicação digital para criar um eBook temático do zero. </p> 
+<p align="justify"> Este projeto foi desenvolvido como parte do curso de Fundamentos de IA Generativa oferecido pela DIO, aplicando conceitos de IA, design visual e publicação digital para criar um eBook temático do zero. </p> 
 
 <details> 
   <summary>**English Version**</summary> 
@@ -61,7 +65,7 @@
 
   <h2><strong>Description</strong></h2> 
   <p align="justify"> 
-    This project consists of the complete creation of a <strong>themed eBook about Pixel Art and retro game development</strong>, inspired by Hogwarts' magical aesthetic and the Debugwarts podcast universe. The eBook was built using <strong>generative AI tools</strong> for content creation and visuals, combined with design tools for final layout and publishing. The goal was to apply the knowledge from the Generative AI course to produce a cohesive, creative, and professional product from scratch. 
+    This project consists of the complete creation of a themed eBook about Pixel Art and retro game development, inspired by Hogwarts' magical aesthetic and the Debugwarts podcast universe. The eBook was built using generative AI tools for content creation and visuals, combined with design tools for final layout and publishing. The goal was to apply the knowledge from the Generative AI course to produce a cohesive, creative, and professional product from scratch. 
   </p> 
 
   <h2><strong>Technologies Used</strong></h2> 
@@ -72,27 +76,29 @@
   </ul> 
 
   <h2><strong>Project Demonstration</strong></h2> 
-  <img src="./assets/ebook-cover.png" alt="The Pixel Codex Ebook Cover" width="200px"/> 
+  <img src="./assets/cover-ebook.png" alt="The Pixel Codex Ebook Cover" width="200px"/> 
   <br/> 
-  <a href="https://williandpg.github.io/debugwarts-ebook" target="_blank"><strong>📖 Access and download the eBook here</strong></a>
+  <a href="https://williandpg.github.io/debugwarts-ebook" target="_blank"><strong>Access and download the eBook here</strong></a>
 
   <h2><strong>Project Structure</strong></h2> 
   <p align="justify">The project structure is organized as follows:</p>
 
-  ```plaintext
-  Copiar código
-  /
-  ├── assets/
-  │   ├── ebook-cover.png
-  │   └── parchment-background.png
-  ├── src/
-  │   └── prompts/
-  │       ├── chatgpt-text.md
-  │       └── midjourney-cover.md
-  ├── output/
-  │   └── the-pixel-codex.pdf
-  └── README.md
-  ```
+```plaintext
+/
+├── assets/
+│   ├── cover-ebook.png
+│   └── page.png
+├── src/
+│   └── prompts/
+│       ├── chatgpt-script.md
+│       ├── midjourney-page.md
+│       └── midjourney-cover.md
+├── output/
+│   └── the-pixel-codex.pdf
+│── index.html
+│── style.css
+└── README.md
+```
 
   <h2><strong>Notes</strong></h2> 
   <ul> 
@@ -111,5 +117,5 @@
   </p> 
 
   <h2><strong>Credits</strong></h2> 
-  <p align="justify"> This project was developed as part of the <strong>Generative AI Fundamentals</strong> course by <strong>DIO</strong>, applying AI, visual design, and publishing concepts to create a themed eBook from scratch. </p> 
+  <p align="justify"> This project was developed as part of the Generative AI Fundamentals course by DIO, applying AI, visual design, and publishing concepts to create a themed eBook from scratch. </p> 
 </details> 
